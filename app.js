@@ -183,8 +183,8 @@ app.use((err, req, res, next) => {
 
 // Only start the server if we're not in a test environment
 if (process.env.NODE_ENV !== "test") {
-  app.listen(3001, () => {
-    console.log("User roles API running at http://localhost:3001")
+  app.listen(3000, () => {
+    console.log("User roles API running at http://localhost:3000")
   })
 }
 
